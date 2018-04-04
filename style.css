@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.main-menu {
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.main-menu li {
+    flex-grow: 1;
+}
+
+.main-menu li a {
+    color: white;
+}
+
+.main-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-nav {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-header {
+    text-align: center;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+}
+
+.main-header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+main a {
+    color: steelblue;
+}
+
+main article {
+    padding-bottom: 60px;
+}
+
+#main-sidebar {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#main-sidebar h2 {
+    color: silver;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed silver;
+}
+
+#main-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-sidebar ul li {
+    clear: both;
+}
+
+
+#main-sidebar ul li a {
+    color: black;
+}
+
+
+#main-sidebar ul li img {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+#main-sidebar p {
+    color: silver;
+}
+
+@media (min-width: 760px) {
+    
+    .main-nav {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+    }
+    
+    .main-menu {
+        margin: 0;
+    }
+    
+    .main-menu li {
+        margin-left: 15px;
+    }
+    
+    .main-menu li a:hover { 
+        text-decoration: underline;
+    }
+    
+    
+    .main-header {
+        padding: 200px 20px;
+    }
+    
+    .main-header h1 {
+        font-size: 60px;
+    }
+    
+
+    .main-section {
+        display: flex;
+    }
+    
+    main {
+        width: 70%;
+    }
+    
+    #main-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        
+    }
+}
